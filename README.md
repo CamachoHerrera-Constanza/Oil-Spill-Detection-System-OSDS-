@@ -38,10 +38,15 @@ The system is able to prompt timely action by the appropiate authorities to redu
 - The time action is reduced by constant detection and quick response
 - Notification and prioritazion
 
+-------------------------------------------------------------------------------------------------
 
+## INPUTS & OUTPUTS
 
-
-
+### Class 1
+*This input represents that something abnormal is occuring in the ocean surface*
+- Spatially referenced (Tied to an specific location)
+  *How will this class recieve this information?*
+  
 
 
 
