@@ -42,12 +42,46 @@ The system is able to prompt timely action by the appropiate authorities to redu
 
 ## INPUTS & OUTPUTS
 
-### Class 1
+***INPUTS***
+### Class 1 -Marine Surface Anomaly Signals
 *This input represents that something abnormal is occuring in the ocean surface*
 - Spatially referenced (Tied to an specific location)
+- May represent indirect evidence, not confirmation
   *How will this class recieve this information?*
   
 
+### Class 2 -Maritime Traffic Movement Information
+*This input represents how vessels move through maritime space over time*
+- Idenity vessel presence in the area
+- Include movements paths
+- Allow time reconstruction
+
+### Class 3 -Temporal Reference Information
+*Support time-window estimation*
+- Correlate anomalies with vessel movements
+- Establish before/after patterns and relationships
+
+### Class 4 -Maritime Judrisdiction and Context Information
+  *Defines an action routing*
+- What authoritiy applies
+- Which actions are legally relevant
 
 
+-------------------------------------------------------------------------------------------------
 
+***OUTPUTS***
+### Class 1 -Spill Suspicion Alerts
+*Trigger awareness*
+- It communicates that a suspected spill event exists
+- Where it likely occurred
+- When it likely began
+
+### Class 2 -Candidate Vessel set
+*Enable accountability and future investigation*
+- It provides a short list of potential responsibles linked to the event
+- It doesn't accuse, it prioritize investigation
+
+### Class 4 -Event Record for follow-up
+*Enable learning and patterns indetification*
+- Events are not lost
+- Patterns recognition for the future
